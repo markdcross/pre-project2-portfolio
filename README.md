@@ -8,7 +8,7 @@ It currently features an clear, clean, and engaging experience with intuitive na
 
 The second page is my portfolio, including links to the deployed app and repo of a few of my recent projects.
 
-My résumé is linked, and a modal including a contact form and my direct information is available as well.
+My résumé is linked (update also pending), and a modal including a contact form and my direct information is available as well.
 
 Thanks for taking a look!
 
