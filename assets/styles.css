@@ -33,9 +33,8 @@ body {
     background-color: #333;
 }
 
-body {
-    display: -ms-flexbox;
-    display: flex;
+#indexBody {
+    display: grid;
     color: #fff;
     text-shadow: 0 0.05rem 0.1rem rgba(0, 0, 0, 0.5);
     box-shadow: inset 0 0 5rem rgba(0, 0, 0, 0.5);
@@ -43,13 +42,28 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    background-attachment: fixed;
+}
+
+#portBody {
+    display: grid;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    text-shadow: 0 0.05rem 0.1rem rgba(0, 0, 0, 0.5);
+    box-shadow: inset 0 0 5rem rgba(0, 0, 0, 0.5);
+    background-image: url(./images/portfolio.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
 }
 
 /* -------------------
 * index
 ------------------- */
 
-.cover-container {
+.indexTabs {
     max-width: 76em;
 }
 
@@ -144,6 +158,7 @@ body {
 #headshot {
     max-width: 25%;
     margin-bottom: 1rem;
+    float: left;
 }
 
 article {
@@ -163,10 +178,41 @@ article ul {
     color: rgba(255, 255, 255, 0.5);
 }
 
+/* -------------------
+* Portfolio
+------------------- */
+
+.card {
+    color: black;
+    text-shadow: 0 0.05rem 0.1rem rgba(0, 0, 0, 0.5);
+    box-shadow: inset 0 0 5rem rgba(0, 0, 0, 0.5);
+    border: 1px solid gray;
+}
+.card img {
+    max-width: 100%;
+    height: 10rem;
+}
+
+.card-text a {
+    color: black;
+}
+
+#portContainer {
+    margin-top: 2rem;
+}
+
+.wrapper {
+    margin-top: 2rem;
+}
+
 /* Media Queries */
 @media only screen and (max-width: 600px) {
     #introContent,
     #getToKnowMe {
         background-color: #d8dde3;
+    }
+    #headshot {
+        max-width: 25%;
+        margin-bottom: 1rem;
     }
 }
