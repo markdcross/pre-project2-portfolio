@@ -235,4 +235,7 @@ footer span {
         max-width: 25%;
         margin-bottom: 1rem;
     }
+    .masthead-brand {
+        display: none;
+    }
 }
