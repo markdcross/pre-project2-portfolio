@@ -62,7 +62,8 @@ body {
 .nav-masthead .nav-link {
     padding: 0.25rem 0;
     font-weight: 700;
-    color: rgba(255, 255, 255, 0.5);
+    /* color: rgba(255, 255, 255, 0.5); */
+    color: black;
     background-color: transparent;
     border-bottom: 0.25rem solid transparent;
 }
@@ -79,6 +80,18 @@ body {
 .nav-masthead .active {
     color: #fff;
     border-bottom-color: #fff;
+}
+
+#contactModal {
+    padding: 0.25rem 0;
+    font-weight: 700;
+    color: black;
+    background-color: transparent;
+    border-bottom: 0.25rem solid transparent;
+}
+
+.modal-content {
+    background-color: rgba(255, 255, 255, 0.9);
 }
 
 @media (min-width: 48em) {
@@ -107,8 +120,9 @@ body {
     opacity: 0;
 }
 #subHeading {
-    font-size: 5rem;
+    font-size: 2rem;
     margin-bottom: 2rem;
+    opacity: 0;
 }
 
 /* Footer */

@@ -47,7 +47,7 @@ $(document).ready(function () {
 
     function introduce() {
         $('#imMark').animate({ fontSize: '4rem' }, 1000);
-        $('#subHeading').animate({ fontSize: '2.5rem' }, 1000);
+        $('#subHeading').animate({ opacity: 1 }, 1000);
         $('.heroIndex').animate({ opacity: 1 }, 1000);
     }
 
