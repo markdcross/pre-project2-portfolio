@@ -20,7 +20,6 @@ $(document).ready(function () {
     //     // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
     //     $('.modal').toggleClass('is-active');
     // });
-
     $('#introBtn').click(function () {
         // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
         $('#heroDiv').addClass('hide');
