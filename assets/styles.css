@@ -2,6 +2,10 @@
  * Globals
  */
 
+.hide {
+    display: none;
+}
+
 /* Links */
 a,
 a:focus,
@@ -46,7 +50,7 @@ body {
 ------------------- */
 
 .cover-container {
-    max-width: 56em;
+    max-width: 76em;
 }
 
 /* Header */
@@ -94,6 +98,15 @@ body {
     background-color: rgba(255, 255, 255, 0.9);
 }
 
+.inner {
+    font-size: 1rem;
+}
+
+.ctcLinks {
+    margin-left: 1.5rem;
+    font-size: 1.5rem;
+    color: black;
+}
 @media (min-width: 48em) {
     .masthead-brand {
         float: left;
@@ -125,7 +138,25 @@ body {
     opacity: 0;
 }
 
+/* Headshot */
+#headshot {
+    max-width: 25%;
+    margin-bottom: 1rem;
+}
+
+article {
+    color: black;
+}
+
 /* Footer */
 .mastfoot {
     color: rgba(255, 255, 255, 0.5);
+}
+
+/* Media Queries */
+@media only screen and (max-width: 600px) {
+    #introContent,
+    #getToKnowMe {
+        background-color: #d8dde3;
+    }
 }
