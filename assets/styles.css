@@ -107,6 +107,7 @@ body {
     font-size: 1.5rem;
     color: black;
 }
+
 @media (min-width: 48em) {
     .masthead-brand {
         float: left;
@@ -132,6 +133,7 @@ body {
 #getToKnowMe {
     opacity: 0;
 }
+
 #subHeading {
     font-size: 2rem;
     margin-bottom: 2rem;
@@ -146,6 +148,14 @@ body {
 
 article {
     color: black;
+}
+
+/* Stack */
+article ul {
+    text-align: left;
+}
+.subtitle {
+    margin-bottom: 2rem;
 }
 
 /* Footer */
