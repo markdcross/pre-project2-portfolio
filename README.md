@@ -19,6 +19,7 @@ Thanks for taking a look!
 -   Bootstrap
 -   JavaScript
 -   jQuery
+-   Animate.css
 
 # Screenshots
 
