@@ -10,8 +10,12 @@
 a,
 a:focus,
 a:hover {
-    color: #fff;
+    color: #6c879f;
 }
+
+/* .calendly {
+
+} */
 
 /* Custom default button */
 .btn-secondary,
