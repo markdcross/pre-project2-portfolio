@@ -10,7 +10,7 @@
 a,
 a:focus,
 a:hover {
-    color: #6c879f;
+    color: rgb(25, 0, 122);
 }
 
 /* .calendly {
@@ -35,15 +35,15 @@ body,
 html {
     display: grid;
     color: #fff;
-    text-shadow: 0 0.05rem 0.1rem rgba(0, 0, 0, 0.5);
-    box-shadow: inset 0 0 5rem rgba(0, 0, 0, 0.5);
+    text-shadow: 0 0.05rem 0.1rem rgba(25, 0, 122, 0.5);
+    box-shadow: inset 0 0 5rem rgba(25, 0, 122, 0.5);
     background-image: url(./images/hero2.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
     height: 100%;
-    background-color: #333;
+    background-color: rgb(25, 0, 122);
 }
 
 /* -------------------
@@ -76,14 +76,14 @@ html {
     padding: 0.25rem 0;
     font-weight: 700;
     /* color: rgba(255, 255, 255, 0.5); */
-    color: black;
+    color: rgba(25, 0, 122);
     background-color: transparent;
     border-bottom: 0.25rem solid transparent;
 }
 
 .nav-masthead .nav-link:hover,
 .nav-masthead .nav-link:focus {
-    border-bottom-color: #6c879f;
+    border-bottom-color: #513ba8;
 }
 
 .nav-masthead .nav-link + .nav-link {
@@ -91,20 +91,20 @@ html {
 }
 
 .nav-masthead .active {
-    color: #6c879f;
-    border-bottom-color: #6c879f;
+    color: #513ba8;
+    border-bottom-color: #513ba8;
 }
 
 #contactModal {
     padding: 0.25rem 0;
     font-weight: 700;
-    color: black;
+    color: rgb(25, 0, 122);
     background-color: transparent;
     border-bottom: 0.25rem solid transparent;
 }
 
 .modal-content {
-    background-color: rgba(255, 255, 255, 0.9);
+    background-color: rgba(171, 152, 137, 0.9);
 }
 
 .inner {
@@ -114,7 +114,7 @@ html {
 .ctcLinks {
     margin-left: 1.5rem;
     font-size: 1.5rem;
-    color: black;
+    color: rgb(25, 0, 122);
 }
 
 @media (min-width: 48em) {
@@ -156,8 +156,10 @@ html {
     float: left;
 }
 
-article {
-    color: black;
+h1,
+h2,
+h3 {
+    color: rgba(25, 0, 122);
 }
 
 /* Stack */
@@ -170,27 +172,27 @@ article ul {
 
 /* Footer */
 .mastfoot {
-    color: rgba(255, 255, 255, 0.5);
+    color: rgba(171, 152, 137, 0.5);
 }
 
 footer .nav-item {
-    background-color: rgba(107, 134, 159, 0.5);
+    background-color: rgba(224, 187, 134, 0.75);
     padding: 1rem 0;
     border-radius: 2rem;
 }
 
 footer span {
-    color: white;
+    color: rgb(54, 48, 105);
 }
 
 /* -------------------
 * Portfolio
 ------------------- */
 .portfolioHeader {
-    color: #6c879f;
+    color: rgb(54, 48, 105);
 }
 .card {
-    color: black;
+    color: rgb(54, 48, 105);
     text-shadow: 0 0.05rem 0.1rem #6c879f;
     box-shadow: inset 0 0 5rem #6c879f;
     border: 1px solid #6c879f;
@@ -201,7 +203,7 @@ footer span {
 }
 
 .card-text a {
-    color: black;
+    color: rgb(54, 48, 105);
 }
 
 #portContainer {
