@@ -1,5 +1,8 @@
 # Mark Cross - Welcome to my Portfolio!
 
+![HTML](https://img.shields.io/badge/netlify/:projectId?style=flat&logo=html5&logoColor=white&color=2bbc8a)
+Netlify:	Netlify badge	
+
 [Check out the deployed site here](https://markdcross.github.io/).
 
 This page will be frequently updated as I continue to grow as a developer - check back frequently!
