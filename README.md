@@ -1,6 +1,8 @@
 # Mark Cross - Welcome to my Portfolio!
 
-[Check out the deployed site here](https://markdcross.github.io/).
+[![Netlify Status](https://api.netlify.com/api/v1/badges/b831abdf-8880-4777-9391-9c4a247565c8/deploy-status)](https://app.netlify.com/sites/markdcrossportfolio/deploys)
+
+[Check out the deployed site here](https://markdcross.me).
 
 This page will be frequently updated as I continue to grow as a developer - check back frequently!
 
