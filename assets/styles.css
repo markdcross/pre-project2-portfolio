@@ -10,7 +10,7 @@
 a,
 a:focus,
 a:hover {
-    color: rgb(25, 0, 122);
+    color: #513ba8;
 }
 
 /* .calendly {
@@ -34,16 +34,14 @@ a:hover {
 body,
 html {
     display: grid;
-    color: #fff;
-    text-shadow: 0 0.05rem 0.1rem rgba(25, 0, 122, 0.5);
-    box-shadow: inset 0 0 5rem rgba(25, 0, 122, 0.5);
+    color: rgb(25, 0, 122);
+    text-shadow: 0 0.05rem 0.1rem #6c879f;
     background-image: url(./images/hero2.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
     height: 100%;
-    background-color: rgb(25, 0, 122);
 }
 
 /* -------------------
@@ -160,6 +158,7 @@ h1,
 h2,
 h3 {
     color: rgba(25, 0, 122);
+    text-shadow: 0 0.05rem 0.1rem #6c879f;
 }
 
 /* Stack */
