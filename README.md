@@ -34,7 +34,7 @@ Feel free to get in touch:
 
 -   <markdcross@gmail.com>
 -   [LinkedIn](https://www.linkedin.com/in/markdcross/)
--   [GitHub](https://github.com/markdcross)
+-   [GitHub](https://github.com/markdcross)  
     Cover Photo by Jesus Kiteque on Unsplash 
 
 # License
